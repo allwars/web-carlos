@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Century Gothic"
+}
+
+:root {
+    --font-light: #ffffff;
+    --font-dark: #616161;
+    --go: #83bebe; 
+    --search: #7c0c3b;
+}
+
+.lscape-top {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+img.img-top {
+    background-image: url("images/landscapeHeader.jpg");
+    background-position: center center;
+    max-width: 100%;
+    min-width: 500px;
+    width: 90%;
+    max-height: min-content;
+    border-radius: 10px;
+}
+
+body{
+    margin: 0;
+}
+
+header.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nature-every {
+    word-wrap: break-word;
+    min-width: 200px;
+    height: auto;
+    font-size: 50px;
+    color: var(--font-dark);
+    margin: 0;
+    padding: 20px 30px;
+    justify-content: center;
+}
+
+nav {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--font-dark);
+    font-size: 1.4em;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10em;
+}
+
+header a {
+    color: var(--go);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #e95c8b;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.25em;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 4em;
+    text-align: center;
+}
+
+.hero-header {
+    font-size: 1.8em;
+    text-align: center;
+}
+
+button {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 8px 22px;
+    border-radius: 10px;
+    border: 1px solid var(--go);
+    box-shadow: 1px 1px 7px rgba(235, 43, 104, 0.5);
+    color: #e95c8b;
+    background-color: var(--search);
+}
+
+button:hover {
+    background-color: #9fe5e5;
+}
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+#wild {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 4em;
+    text-align: center;
+}
+
+#dry-air-water-rocks {
+    background-color: #000000;
+    color: var(--go);
+    border-radius: 10px;
+    margin: 5px;
+    
+}
+
+#dry-air-water-rocks h2 {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 7px rgba(235, 43, 104, 0.5);
+}
+
+#dry-air-water-rocks .choose-container {
+    text-align: center;
+}
+
+.choose-container {
+    margin-bottom: 10em;
+}
+
+.desert {
+    background-color: #616161;
+    width: 20%;
+    max-width: max-content;
+    min-width: min-content;
+    border-radius: 10px;
+}
+
+.air {
+    background-color: #616161;
+    width: 20%;
+    max-width: max-content;
+    min-width: min-content;
+    border-radius: 10px;
+}
+
+.water {
+    background-color: #616161;
+    width: 20%;
+    max-width: max-content;
+    min-width: min-content;
+    border-radius: 10px;
+}
+
+.rocks {
+    background-color: #616161;
+    width: 20%;
+    max-width: max-content;
+    min-width: min-content;
+    border-radius: 10px;
+}
+
+#free .container{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+
+#awesome .container{
+    background-color: var(--font-dark);
+    text-align: center;
+    width: 10em;
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 150px;
+    margin-bottom: 80px;
+    word-spacing: 12px;
+}
+
+#awesome :hover {
+    border-radius: 125px;
+    color: var(--search);
+    border: 1px solid var(--go);
+    box-shadow: 1px 1px 7px rgba(127, 230, 212, 0.5);
+    color: #9fe5e5;
+    background-color: var(--search);
+}
