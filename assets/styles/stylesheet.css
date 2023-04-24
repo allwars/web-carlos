@@ -251,7 +251,6 @@ button:hover {
   color: var(--search);
   border: 1px solid var(--go);
   box-shadow: 1px 1px 7px rgba(127, 230, 212, 0.5);
-  color: #9fe5e5;
   background-color: var(--search);
 }
 section.footer {
